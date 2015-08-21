@@ -1,15 +1,27 @@
 {
-  "name": "less-design",
-  "version": "0.0.0",
+  "name": "lesstutorial",
+  "version": "1.0.0",
   "description": "this is for less preprocessor learning.",
   "main": "index.js",
   "dependencies": {
     "less": "^2.5.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "jit-grunt": "^0.9.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "manoj shukla",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/codephp89/LessTutorial.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codephp89/LessTutorial/issues"
+  },
+  "homepage": "https://github.com/codephp89/LessTutorial#readme"
 }
