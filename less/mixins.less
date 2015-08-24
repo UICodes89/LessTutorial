@@ -1,3 +1,19 @@
-.border{
-	border-top:5px solid grey;
+/********************************************************************
+  In Less if we create a paramertric mixin it will not get displayed in 
+  in the compiled css file but if we use this  in normal mixin which does
+  not accept any paremeter that will be available in css file.
+
+  author Manoj Shukla
+*********************************************************************/
+
+
+.boeder1{
+	border:1px solid red;
 }
+//this is known as Mixin
+.border(@width){
+	border-top:@width solid @bg-color;
+}
+
+//This above mixin is called as parametric mixin this this will not be diaplyed on css file
+
